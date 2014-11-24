@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" xmlns:og="http://ogp.me/ns#">
 	<head> 
-	<!-- 2014-11-15-21-50 -->
 		<meta charset="utf-8">
 		<title>
 			{% if is_login %}Login
@@ -32,7 +31,7 @@
 			{% else  %}
 			<div class="row">
 				<div class="span4 header">
-					<div class="bg-img" style="background-image: url('{% if site.cover_photo %}{{ site.cover_photo }}{% else %}{{ assets['background.jpg'] }}{% endif %}');"></div>
+					<!-- <div class="bg-img" style="background-image: url('{% if site.cover_photo %}{{ site.cover_photo }}{% else %}{{ assets['background.jpg'] }}{% endif %}');"></div> -->
 					<div class="gradient"></div>
 					<div class="title">
 						<h1>{{ site.name }}</h1>
@@ -40,7 +39,7 @@
 					<a class="logo" href="/">
 						<img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}" width="100%" height="100%" />
 					</a>
-					<div class="site-description"> <!-- Begin Seiten - Statisch und flexibel -->
+					<!-- <div class="site-description"> <!-- Begin Seiten - Statisch und flexibel -->
 						<hr color="white"> <!-- Begin statische Seiten -->
 						<ul>
 							<li><a href="/">Home</a></li>
@@ -56,7 +55,7 @@
 								{% endfor %}
 							{% endif %}
 						</ul>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="row wrapper">
