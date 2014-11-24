@@ -31,31 +31,10 @@
 			{% else  %}
 			<div class="row">
 				<div class="span4 header">
-					<!-- <div class="bg-img" style="background-image: url('{% if site.cover_photo %}{{ site.cover_photo }}{% else %}{{ assets['background.jpg'] }}{% endif %}');"></div> -->
 					<div class="gradient"></div>
 					<div class="title">
 						<h1>{{ site.name }}</h1>
 					</div>
-					<!-- <a class="logo" href="/">
-						<img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}" width="100%" height="100%" />
-					</a> -->
-					<!-- <div class="site-description"> <!-- Begin Seiten - Statisch und flexibel -->
-						<hr color="white"> <!-- Begin statische Seiten -->
-						<ul>
-							<li><a href="/">Home</a></li>
-							<li><a href="http://thill.postach.io">Betreuung</a></li>
-							<li><a href="http://schlaganfalltagebuch.postach.io">Schlaganfalltagebuch</a></li>
-							<li><a href="http://peterthill.github.io">Peters GitHub TestArea :-)</a></li>
-						</ul>
-						<hr color="white"> <!-- Beginn flexible Seiten -->
-						<ul>
-							{% if pages %}
-								{% for page in pages %}
-									<li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
-								{% endfor %}
-							{% endif %}
-						</ul>
-					</div> -->
 				</div>
 			</div>
 			<div class="row wrapper">
@@ -143,6 +122,5 @@
 			{{ footer_meta }}
 				<!-- bootstrap -->
 				<script src="http://postach.io/static/themes/_assets/bootstrap/js/bootstrap.min.js" /></script>
-				<a href="http://bluefish.openoffice.nl/">Made with Bluefish HTML editor.</a>
 	</body>
 </html>
